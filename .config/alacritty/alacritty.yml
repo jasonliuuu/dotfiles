@@ -1,5 +1,31 @@
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels.
+  # If both are `0`, this setting is ignored.
+  dimensions:
+    columns: 0
+    lines: 0
+
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is not scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 8
+    y: 8
+
+  # Window decorations
+  #
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  decorations: full
+
 # Font configuration (changes require restart)
+
 font:
+  size: 10
   # The normal (roman) font face to use.
   normal:
     family: JetBrainsMono Nerd Font Mono
@@ -18,13 +44,70 @@ font:
     # Style can be specified to pick a specific face.
     style: Italic
 
+# # Colors (Snazzy)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#282a36'
+#     foreground: '#eff0eb'
 
+#   # Normal colors
+#   normal:
+#     black:   '#282a36'
+#     red:     '#ff5c57'
+#     green:   '#5af78e'
+#     yellow:  '#f3f99d'
+#     blue:    '#57c7ff'
+#     magenta: '#ff6ac1'
+#     cyan:    '#9aedfe'
+#     white:   '#f1f1f0'
 
+#   # Bright colors
+#   bright:
+#     black:   '#686868'
+#     red:     '#ff5c57'
+#     green:   '#5af78e'
+#     yellow:  '#f3f99d'
+#     blue:    '#57c7ff'
+#     magenta: '#ff6ac1'
+#     cyan:    '#9aedfe'
+#     white:   '#f1f1f0'
+
+# # Colors (One Dark)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#282c34'
+#     foreground: '#abb2bf'
+
+#   # Normal colors
+#   normal:
+#     # NOTE: Use '#131613' for the `black` color if you'd like to see
+#     # black text on the background.
+#     black:   '#282c34'
+#     red:     '#e06c75'
+#     green:   '#98c379'
+#     yellow:  '#d19a66'
+#     blue:    '#61afef'
+#     magenta: '#c678dd'
+#     cyan:    '#56b6c2'
+#     white:   '#abb2bf'
+
+#   # Bright colors
+#   bright:
+#     black:   '#5c6370'
+#     red:     '#e06c75'
+#     green:   '#98c379'
+#     yellow:  '#d19a66'
+#     blue:    '#61afef'
+#     magenta: '#c678dd'
+#     cyan:    '#56b6c2'
+#     white:   '#ffffff'
 # Colors (Dracula)
 colors:
   # Default colors
   primary:
-    background: '#282a36'
+    background: '#171717'
     foreground: '#f8f8f2'
 
   # Normal colors
@@ -48,3 +131,60 @@ colors:
     magenta: '#ff92d0'
     cyan:    '#9aedfe'
     white:   '#e6e6e6'
+
+# # Colors (Molokai Dark)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#1B1D1E'
+#     foreground: '#F8F8F2'
+#   # Normal colors
+#   normal:
+#     black:   '#333333'
+#     red:     '#C4265E'
+#     green:   '#86B42B'
+#     yellow:  '#B3B42B'
+#     blue:    '#6A7EC8'
+#     magenta: '#8C6BC8'
+#     cyan:    '#56ADBC'
+#     white:   '#E3E3DD'
+#   # Bright colors
+#   bright:
+#     black:   '#666666'
+#     red:     '#F92672'
+#     green:   '#A6E22E'
+#     yellow:  '#E2E22E'
+#     blue:    '#819AFF'
+#     magenta: '#AE81FF'
+#     cyan:    '#66D9EF'
+#     white:   '#F8F8F2'
+
+# # # Colors (Seti)
+# colors:
+#   bright:
+#     black: '#323232'
+#     blue: '#43a5d5'
+#     cyan: '#8ec43d'
+#     green: '#8ec43d'
+#     magenta: '#8b57b5'
+#     red: '#c22832'
+#     white: '#ffffff'
+#     yellow: '#e0c64f'
+#   cursor:
+#     cursor: '#e3bf21'
+#     text: '#e0be2e'
+#   normal:
+#     black: '#323232'
+#     blue: '#43a5d5'
+#     cyan: '#8ec43d'
+#     green: '#8ec43d'
+#     magenta: '#8b57b5'
+#     red: '#c22832'
+#     white: '#eeeeee'
+#     yellow: '#e0c64f'
+#   primary:
+#     background: '#111213'
+#     foreground: '#cacecd'
+#   selection:
+#     background: '#303233'
+#     text: '#cacecd'
